@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://deploy-front-orcin.vercel.app/";
 
 function App() {
   const [message, setMessage] = useState("");
