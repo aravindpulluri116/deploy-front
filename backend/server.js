@@ -3,7 +3,7 @@ const cors = require('cors');
 
 const app = express();
 const port = process.env.PORT || 5000;
-const FRONTEND_URL = 'https://deploy-front-87j4.vercel.app/';
+const FRONTEND_URL = 'https://deploy-front-87j4.vercel.app';
 
 app.use(cors({
   origin: FRONTEND_URL,
